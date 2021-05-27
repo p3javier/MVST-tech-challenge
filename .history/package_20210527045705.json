@@ -28,17 +28,6 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "*.graphql"
-        ],
-        "parser": "@graphql-eslint/eslint-plugin",
-        "plugins": [
-          "@graphql-eslint"
-        ]
-      }
     ]
   },
   "browserslist": {
